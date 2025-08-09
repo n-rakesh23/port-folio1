@@ -10,7 +10,7 @@ body{
 header{
    
     display: flex;
-    width: 100vw;
+    width: 600px;
     height: 50px;
     position: fixed;
     background-color: ivory;
@@ -45,7 +45,7 @@ header  #links{
 #footer {
     padding-top: 2px;
     padding-bottom: 2px;
-    width: 100vw;
+    width: 500px;
     position: static;
     background-color:grey;
     color: rgba(240,240,240,0.5);
@@ -56,8 +56,8 @@ header  #links{
 }
 /*profile section*/
 .profile{
-    width:100vw;
-    height: 50vh;
+    width:600px;
+    height: 500px;
     background-color: rgb(103, 103, 103);
     
 }
@@ -122,8 +122,8 @@ button a{
 
 /*about section*/
 #about1{
-    width: 100vw;
-    height: 20vh;
+    width: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,7 @@ button a{
 
 }
 #about{
-        width: 50vw;
+        width: 300px;
         height: 200px;
         background-color: white;
         border-radius: 20px;
@@ -152,16 +152,16 @@ button a{
 #education{
         display: flex;
         justify-content: center;
-        width: 100vw;
-        height: 20vh;
+        width: 600px;
+        height: 400px;
         padding-top:20rem ;
         background-color: rgb(135, 153, 168);
         
 }
 #educationdiv{
    
-    width: 80vw;
-    height: 20vh;
+    width: 400px;
+    height: 200px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
@@ -183,8 +183,8 @@ button a{
 #education #bottompart #left{
      display: flex;
      flex-direction: column;
-     width: 35vw;
-     height:15vh;
+     width:120px;
+     height:100px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 30px;
@@ -193,8 +193,8 @@ button a{
 #education #bottompart #right{
      display: flex;
      flex-direction: column;
-      width: 35vw;
-     height:15vh;
+      width: 120px;
+     height:100px;
     align-items: center;
     justify-content: space-between;
     border-radius: 30px; 
@@ -204,8 +204,8 @@ button a{
 /*skills*/
 #skills{
     display: flex;
-    width: 100vw;
-    height: 20vh;
+    width: 600px;
+    height: 500px;
     background-color: rgb(191, 191, 191);
 }
 #skillsdiv{
@@ -436,8 +436,8 @@ a{
 
 /*contacts*/
 #contact{
-    width: 100vw;
-    height: 70vh;
+    width: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -445,7 +445,7 @@ a{
     
 }
 #contacts{
-    width:600px;
+    width:300px;
     height:200px;
     border-radius: 20px;
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
@@ -487,3 +487,4 @@ a{
     margin-left: 1rem;
 
 }
+
